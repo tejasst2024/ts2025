@@ -1,0 +1,15 @@
+Javascript Types :
+    - number
+    - string
+    - null
+    - undefined
+    - Object
+    - boolean
+Typescript Types :
+    - any
+    - unknown
+    - never
+    - enum
+    - tuple
+
+ 
