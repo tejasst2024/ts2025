@@ -106,3 +106,21 @@ let textBox: UIWidget = {
     drag: () => {},
     resize: () => {}
 }
+
+// Literal
+type Quant = 50 | 100
+let quantity: Quant = 50;
+
+// Null values
+function greet(name: string | null) {
+    if( name)
+        console.log(name.toUpperCase());
+}
+
+greet(null)
+
+// Optional chaining
+type Customer = {
+    birthday: Date
+} 
+
